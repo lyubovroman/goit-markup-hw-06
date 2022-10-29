@@ -886,3 +886,10 @@ margin-right: 30px;
 
 }
 
+.join
+{
+  margin-left: 105px;
+}
+.join-title {
+  color: var(--secondary-title-color);
+}
