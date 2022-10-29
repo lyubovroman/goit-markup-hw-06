@@ -168,15 +168,6 @@ footer {
 
 }
 
-.join {
-  margin-left: 105px;
-}
-
-.join-title {
-  color: var(--secondary-title-color);
-    text-transform: uppercase;
-}
-
 .img-details .link {
   display: flex;
     justify-content: center;
@@ -240,8 +231,8 @@ justify-content: space-between;
   border-bottom: 1px solid #ececec;
 }
 .page-header a {
-    padding-top: 32px;
-      padding-bottom: 32px;
+    padding-top: 24px;
+      padding-bottom: 25px;
 }
 
 .container-header {
@@ -266,7 +257,10 @@ justify-content: space-between;
   margin-right: 50px;
 }
 
-
+.site-nav.list .item {
+  padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -274,6 +268,7 @@ justify-content: space-between;
 }
 .site-nav .link.current {
   color: var(--accent-color);
+ 
 }
 
 .link.current::after {
@@ -282,7 +277,7 @@ justify-content: space-between;
   width: 100%;
   height: 4px;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   background-color: var(--accent-color);
   border-radius: 2px;
 }
@@ -378,18 +373,19 @@ justify-content: space-between;
   background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: property 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    duration 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .button-close {
-
+ 
   position: absolute;
   top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
-  padding: 9px 9px 10px 10px;
+  
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--secondary-title-color);
   border-radius: 50%;
@@ -521,7 +517,7 @@ right: 0;
   width: 370px;
 }
 
-.action-text {
+.text-action {
   color: var(--secondary-title-color);
     font-weight: 700;
       line-height: 1.17;
@@ -760,7 +756,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   width: 370px;
   height: 294px;
   overflow: hidden;
-  transition: ;
+
 }
 
 .portfolio-thumb {
