@@ -822,39 +822,6 @@ margin-right: 30px;
 
 
 
-/*icon for index section footer */
-
-
-/* icons for index section benefits*/
-
-
-/* .list-width::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-bottom: 30px;
-  background-position: center;
-  background-color: #F5F4FA;
-}
-
-.list-width:nth-child(1)::before {
-  background-image: url(../images/css/antenna.jpg);
-}
-
-.list-width:nth-child(2)::before {
-  background-image: url(../images/css/clock.jpg);
-}
-
-.list-width:nth-child(3)::before {
-  background-image: url(../images/css/laptop.jpg);
-}
-
-.list-width:nth-child(4)::before {
-  background-image: url(../images/css/astronaut.jpg);
-} */
-
 .icon-benefits {
  
   width: 270px;
